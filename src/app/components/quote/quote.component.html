@@ -1,10 +1,10 @@
 <div class="container mt-5">    
     <div class="row">
         <div class="col-md-8">
-            <ng-container *ngFor="let quote of quotes ">
+            <ng-container *ngFor="let quote of quotes; let i = index ">
                 <div class="card mb-3" style="width:80%" >
                     <div class="card-body">
-                        <h2 class="card-title bg-light ">{{quote.topic}} <app-delete-btn></app-delete-btn></h2>
+                        <h2 class="card-title bg-light ">{{quote.topic}} <app-delete-btn (deleteQuote)='deleteTheQuote($event, i)'></app-delete-btn></h2>
                         <p class="card-text" id="quote">"{{quote.quote}}"</p> <br>
                     </div>
                     <div class="card-footer">
