@@ -12,7 +12,7 @@ export class QuoteComponent implements OnInit {
     {id:0,name:"Zack Daniel",topic:"Life style", quote:"If you are not displined you are a slave to your emotions",author:"Eliud Kipchoge"},
   ];
   
-
+  
   constructor() {
    
    }
