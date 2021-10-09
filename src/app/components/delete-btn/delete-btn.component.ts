@@ -9,7 +9,7 @@ export class DeleteBtnComponent implements OnInit {
   @Output() deleteQuote=new EventEmitter<boolean>();
   onDelete(removeQuote:boolean){
     this.deleteQuote.emit(removeQuote)
-    console.log("clicked");
+    
     
   }
 

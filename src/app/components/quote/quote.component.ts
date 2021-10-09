@@ -18,6 +18,7 @@ export class QuoteComponent implements OnInit {
   }
   deleteTheQuote(deleteQuote, index){
     if(deleteQuote){
+      alert("Are you sure you want to delete this quote")
       this.quotes.splice(index, 1)
     }
     
