@@ -11,6 +11,7 @@ import { QuoteFormComponent } from './components/quote-form/quote-form.component
 import { QuoteDetailsComponent } from './components/quote-details/quote-details.component';
 import { DeleteBtnComponent } from './components/delete-btn/delete-btn.component';
 import { TimePipe } from './time.pipe';
+import { HighlightquoteDirective } from './highlightquote.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TimePipe } from './time.pipe';
     QuoteFormComponent,
     QuoteDetailsComponent,
     DeleteBtnComponent,
-    TimePipe
+    TimePipe,
+    HighlightquoteDirective
   ],
   imports: [
     BrowserModule,
