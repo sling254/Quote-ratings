@@ -10,6 +10,7 @@ import { QuoteComponent } from './components/quote/quote.component';
 import { QuoteFormComponent } from './components/quote-form/quote-form.component';
 import { QuoteDetailsComponent } from './components/quote-details/quote-details.component';
 import { DeleteBtnComponent } from './components/delete-btn/delete-btn.component';
+import { TimePipe } from './time.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DeleteBtnComponent } from './components/delete-btn/delete-btn.component
     QuoteComponent,
     QuoteFormComponent,
     QuoteDetailsComponent,
-    DeleteBtnComponent
+    DeleteBtnComponent,
+    TimePipe
   ],
   imports: [
     BrowserModule,

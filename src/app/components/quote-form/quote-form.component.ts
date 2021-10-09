@@ -38,10 +38,10 @@ export class QuoteFormComponent implements OnInit {
       topic:this.topic,
       quote:this.quote,
       author:this.author,
+      date:new Date()
     }
     //emit the new quote
     this.onAddQuote.emit(newQuote);
-    console.log("i was clicked");
 
     //clear the form inputs
     this.name = "",

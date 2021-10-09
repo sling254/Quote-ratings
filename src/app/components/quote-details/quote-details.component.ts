@@ -9,7 +9,16 @@ import { Quote } from 'src/app/quote';
 export class QuoteDetailsComponent implements OnInit {
   @Input()quote:Quote;
 
-  
+  upvote:number = 0;
+  downvote:number = 0;
+  onUpVote(){
+    this.upvote ++;
+
+  }
+  onDownVote(){
+    this.downvote ++;
+  }
+
   
 
   constructor() { 
