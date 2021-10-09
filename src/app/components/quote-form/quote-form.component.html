@@ -1,20 +1,22 @@
-<form action="">
+<form  (ngSubmit)="onsubmitQuote()">
     <h1>Add New Quote</h1>
     <div class="form-gruop">
         <label for="" class="form-label">Your Name:</label><br>
-        <input type="text" class="form-control" >
+        <input type="text" class="form-control"id="name" name="name" [(ngModel)]="name" >
     </div>
     <div class="form-gruop">
         <label for="" class="form-label">Topic:</label><br>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control"id="topic"  name="topic" [(ngModel)]="topic" >
     </div>
     <div class="form-gruop">
         <label for="" class="form-label">Quote:</label><br>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control"id="quote" name="quote" [(ngModel)]="quote"  >
     </div>
     <div class="form-gruop">
         <label for="" class="form-label">Author:</label><br>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control"id="author" name="author" [(ngModel)]="author"  >
     </div> <br>
     <button class="btn btn-primary" type="submit">POST QUOTE</button>
+    {{name}}
+    
 </form>

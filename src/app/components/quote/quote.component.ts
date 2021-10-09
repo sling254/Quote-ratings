@@ -7,10 +7,15 @@ import { Quote } from 'src/app/quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  quotes?: Quote[]=[
-    {id:0,name:"Zack Daniel",topic:"Life style", quote:"If you are not displined you are a slave to your emotions",author:"Eliud Kipchoge"},
-    {id:0,name:"Zack Daniel",topic:"Life style", quote:"If you are not displined you are a slave to your emotions",author:"Eliud Kipchoge"},
+  quotes=[
+    new Quote(0,"Zack Daniel","life Style","If you are not displined you are a slave to your emotions","Eliud Kipchoge")
+    
   ];
+
+  addQuote(quote:Quote){
+    this.quotes.push(quote);
+    
+  }
   deleteTheQuote(deleteQuote, index){
     if(deleteQuote){
       this.quotes.splice(index, 1)

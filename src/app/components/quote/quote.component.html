@@ -12,10 +12,11 @@
                     </div>
                 </div>
             </ng-container>
+            <p *ngIf='quotes.length < 1'>You do not have any quotes</p>
             
         </div> 
         <div class="col-md-4">
-           <app-quote-form></app-quote-form>
+           <app-quote-form (onAddQuote)="addQuote($event)"></app-quote-form>
         </div>
     </div>
     

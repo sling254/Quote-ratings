@@ -1,5 +1,5 @@
-<button id="upvote" class="btn btn-success"><i class="bi bi-hand-thumbs-up"></i>Upvote &nbsp; 10</button> 
-<button class="btn btn-danger"><i class="bi bi-hand-thumbs-down"></i>Downvote &nbsp; 4</button>
+<button id="upvote" class="btn btn-success"(click)="onUpVote()"><i class="bi bi-hand-thumbs-up"></i>Upvote &nbsp; {{upvote}}</button> 
+<button class="btn btn-danger" (click)="onDownVote()"><i class="bi bi-hand-thumbs-down"></i>Downvote &nbsp; {{downvote}}</button>
 
 <div id="post-details" class="mt-3">
     <h6>Author: <small>{{quote.author}}</small></h6>
