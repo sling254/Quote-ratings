@@ -1,6 +1,50 @@
 # QuoteRating
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+This is an online platform to read quotes, Post a quote upvote or downvote quotes and also delete quotes.
+#### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+
+### Check out the website :stars:
+https://sling254.github.io/Quote-ratings/
+# Website Design :link:
+* see [Website Design](https://www.figma.com/file/3oDgiGXQGsIeV2WRlR2sFw/Quotes?node-id=0%3A1) file
+
+# Permissions
+- Internet
+# Task lists
+- [x] Implement the design 
+- [x] The application allows the user to upvote and downvote a quote.
+- [X] The application allows the user to delete a quote
+- [X] The application allows the user to add a quote.
+- [x] The application highlights the quote with most upvotes and shows time passed since a vote was posted.
+
+# Technologies used.
+- Typescript
+- Bootstrap -- version 5.1.1
+- Google Fonts
+- Angular js
+
+## Setup/Installation Requirements
+
+* Clone the repository and modify the files according to your requirement.
+* I highly recommend to use Github Pages to deploy the website the EASIEST WAY.
+* To deploy your website, first you need to create github repository with name <your-github-username>.github.io/
+* Push the generated code to the master branch of this repository.
+
+## Known Bugs
+
+The project has no known bugs as the debugging process was quite thorough.
+
+
+# Developer or Author Name
+- Muriithi Mwaniki
+- Github -- Sling254
+
+## License :link:
+* see [LICENSE](https://github.com/sling254/Quote-ratings/blob/main/LICENSE) file
+
+
+
+
 
 ## Development server
 
