@@ -9,6 +9,7 @@ import { Quote } from 'src/app/quote';
 export class QuoteComponent implements OnInit {
   quotes=[
     new Quote(0,"Zack Daniel","life Style","If you are not displined you are a slave to your emotions","Eliud Kipchoge",new Date(2021,8,13)),
+    new Quote(0,"sling 254","Programming","If it works dont touch it","Albert Einstein",new Date(2021,8,29)),
     
   ];
 
